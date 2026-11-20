@@ -4,7 +4,7 @@
 > *“It reads the bills nobody typed and tells you what to buy — inside the cash and credit you actually have.”*
 
 ## 📌 Problem Statement (Tech4Bharat 2026 - PS 5.1)
-Kiranas lose **15–20% of working capital** to dead stock and **₹5,000–10,000 monthly** to expired goods. Most shops have no billing system, track stock by memory, and order whatever the distributor salesman pushes (often high-margin dead stock). They operate entirely on intuition and are flying blind on cash flow.
+Kiranas lose **15–20% of working capital** to dead stock and **₹5,000–10,000 monthly** to expired goods. Most shops have no billing system, track stock by memory, and order whatever the distributor salesman pushes. They operate entirely on intuition and are flying blind on cash flow. 
 
 ## 💡 The Solution
 A voice-first, zero-typing **Agentic AI** mobile app for low-literacy shopkeepers. 
@@ -15,8 +15,8 @@ The owner simply:
 
 ## 🧠 Defeating the "Week 1" Data Problem (Honest Inference)
 How does the AI know what is a "fast mover" without a POS system?
-*   **Heuristic Velocity Engine:** We acknowledge that aggregate UPI SMS alerts only show total shop revenue, not per-SKU sales. We use the timestamp deltas between consecutive distributor bills paired with UPI cash inflows to generate a *proxy estimate* of SKU velocity.
-*   **Human Validation:** The AI proposes the fast-movers based on this proxy, and the owner confirms via a 1-tap voice prompt. The system learns instantly.
+*   **Heuristic Velocity Engine:** We acknowledge that aggregate UPI SMS alerts only show shop-level cash totals, not per-SKU sales. We use the timestamp deltas between consecutive distributor bills paired with UPI cash inflows to generate an *estimate* of SKU velocity. 
+*   **Owner Validation:** Per-SKU velocity is validated via the owner's 1-tap voice confirmations. The system learns instantly.
 *   **Cold-Start Defense:** The system is pre-seeded with a 120-item regional alias table. It doesn't need to learn from scratch—it proves its worth on Bill #1.
 
 ## ⚙️ Technical Architecture (Why it's a True Agent)
@@ -32,7 +32,7 @@ Unlike a simple OCR tool, this system operates on an **Observe-Plan-Act-Verify**
 
 ## 💰 Business Model (B2B2C)
 *   **Free for the Kirana:** Onboarded via FMCG brand managers who want clean, digital orders instead of chaotic phone calls.
-*   **Monetization:** Every approved reorder becomes an anonymized demand signal. We aggregate this data across 1,000 shops and sell hyper-local, real-time demand intelligence to FMCG brands and distributors who currently blind-forecast.
+*   **Monetization:** Every approved reorder becomes an anonymized demand signal. We aggregate this data across 1,000 shops and sell hyper-local, real-time demand intelligence to FMCG brands and distributors who currently blind-forecast. 
 *   **Privacy:** All data is strictly aggregated and anonymized before any sale, fully complying with the DPDP Act 2023. We turn the Kirana from a user into a data node, without compromising their privacy.
 
 ## 🚀 Roadmap
