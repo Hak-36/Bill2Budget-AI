@@ -26,7 +26,6 @@ Unlike a simple OCR tool, this system operates on an **Observe-Plan-Act-Verify**
 *   **Trust UI (Human-in-the-Loop):** Every suggested line item displays its bill source and match confidence. A wrong OCR read costs the owner one tap to reject, not a wrong order. Nothing is sent until the owner taps "Approve."
 
 ## 📱 UI Flow (The 4-Screen Journey)
-*(See `wireframe.png` in the repo for the full visual)*
 *   **Screen 1 (Scan):** Camera View (Scan Bill).
 *   **Screen 2 (Verify):** Voice Budget Input (*"Aaj kitna cash hai?"*) + Alias confirmations.
 *   **Screen 3 (Reorder):** Capped Reorder list. Shows a single big metric: **"Estimated dead-stock cash freed this week: ₹X."** Red alert for dead stock.
